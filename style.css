@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing :border-box;
+}
+
+html {
+  font-family: 'Denk One', sans-serif;
+}
+
+.container{
+  width:700px;
+  margin:100px auto;
+  text-align: center;
+}
+
+[class*="0"],[class*="1"],[class*="2"],[class*="3"],[class*="4"],[class*="5"] {
+  border-bottom:3px dotted skyblue;
+}
+[class*="0"],[class*="3"],[class*="6"],[class*="1"],[class*="4"],[class*="7"] {
+  border-right:3px dotted skyblue;
+}
+
+.board, .options{
+  width:310px;
+  margin:30px auto;
+}
+
+.box{
+  float:left;
+  width:100px;
+  height:100px;
+  line-height: 100px;
+}
+
+.box:hover{
+  background-color: rgba(135,206,250,.08);
+  border-radius: 2px;
+}
+
+.play-again{
+  padding: 10px 5px;
+  margin: 20px 10px 20px 0;
+  border-radius: 20px;
+  border: 2px solid skyblue;
+  font-family: 'Denk One', sans-serif;
+  font-size: 15px;
+}
